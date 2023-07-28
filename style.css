@@ -46,7 +46,6 @@ body {
   display: flex;
   font-family: Roboto-Black;
   margin-bottom: 200px;
-
   width: 100%;
 
  
@@ -54,7 +53,7 @@ body {
 .header img {
   padding: 9px;
   width: 80px;
-  border-radius: 78px;
+  border-radius: 50px;
 }
 .header .list {
   margin-left: auto;
