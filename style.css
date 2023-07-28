@@ -1,0 +1,311 @@
+@font-face {
+  font-family: "Roboto Medium";
+  src: url(./fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(./fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(./fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Dancing";
+  src: url(./fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.fondo {
+  background-color: rgba(14, 43, 206, 0.973);
+}
+.header {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+@media (min-width: 576px) {
+  .header {
+    max-width: 1400px;
+   
+  }
+}
+
+.header .img-1 {
+  display: flex;
+  font-family: Roboto-Black;
+  margin-bottom: 200px;
+
+  width: 100%;
+
+ 
+}
+.header img {
+  padding: 9px;
+  width: 80px;
+  border-radius: 78px;
+}
+.header .list {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.header .list ul {
+  display: flex;
+  margin-left: 25px;
+  font-weight: 700;
+}
+.header li {
+  display: flex;
+  margin-left: 35px;
+}
+a {
+  color: #cccfd4;
+  font-size: 20px;
+}
+ul,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+article {
+  display: flex;
+  flex-direction: row;
+}
+.acerca {
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.acerca h1 {
+  font-size: 60px;
+  font-family: Roboto-Black;
+  font-weight: bold;
+  color: white;
+  text-align: 0;
+  margin: 0;
+  line-height: 1.1;
+}
+.acerca p {
+  padding: 0;
+  margin-top: 5px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.acerca .cancel {
+  padding: 8px 40px;
+  border-radius: 10px;
+  background-color: #1a69e9;
+  display: flex;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  font-size: 15px;
+  font-family: Roboto;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+}
+.piz {
+  align-items: center;
+  justify-content: center;
+  width: 730px;
+  height: 373px;
+  margin-bottom: 330px;
+  margin-left: 50px;
+  padding-right: 0;
+}
+.piz img {
+  width: 650px;
+  height: 349px;
+  border-radius: 50px;
+}
+.main {
+  margin-top: 60px;
+  min-width: 100%;
+  margin-bottom: 10%;
+  font-family: Roboto-Black;
+}
+.main h1 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 750;
+  margin-bottom: 50px;
+  text-shadow: 0px 10px 8px  rgba(0, 0, 1, 0.8);
+}
+.containers .cards-1 {
+  width: 170px;
+  height: 170px;
+  border: 3px solid blue;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  transition: transform 0.5s ease;
+
+}
+.img1{
+  background-image: url(./img/tipos-de-pizzas-champinones.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3px;
+}
+.img-2 {
+  background-image: url(./img/pizza-napolitana.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3px;
+  background-position: center center;
+}
+.img-3 {
+  background-image: url(./img/pizza-funghi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3px;
+  background-position: center center;
+}
+.img-4 {
+  background-image: url(./img/pizza-carbonara.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3px;
+  background-position: center center;
+}
+.containers {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 20px;
+}
+.containers p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: large;
+  font-weight: bolder;
+}
+.fondo-text {
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.cards-1:hover {
+color: red;
+cursor: pointer;
+border: none;
+margin-bottom: 36px;
+transform: scale(1.5);
+}
+.God {
+  width: 850px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+.God p {
+  margin-bottom: 0;
+  font-family: Dancing;
+  font-size: larger;
+}
+.God h5 {
+  text-align: end;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0;
+  margin-right: 45px;
+  padding: 0;
+  font-size: 22px;
+}
+.call {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-image: url(./img/2-640x427.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.fondo-call {
+  width: 80%;
+  height: 35%;
+  font-family: Roboto;
+  background-color: #1361df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #3cb4ff; 
+
+
+}
+.llamar {
+  width: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+
+}
+.agrupa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.agrupa h2 {
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+}
+.agrupa p {
+  margin-top: 6px;
+  color: rgba(255, 255, 255, 0.712);
+}
+.llamar button {
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 10px 40px;
+  border-radius: 7px;
+  background: none;
+  color: white;
+  border: 3px solid white;
+  font-size: 15px;
+  cursor: pointer;
+}
+footer {
+  background-color: #1f2937;
+  color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
